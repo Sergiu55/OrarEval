@@ -135,7 +135,7 @@ input[type="checkbox" i] {
 
 .Regim {
     color: white;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 
@@ -167,4 +167,39 @@ input {
 .search-icon {
     color: rgb(75, 187, 47); 
     pointer-events: none; 
+}
+
+.container7 {
+    position: relative;
+    width: 100%;
+
+}
+
+.scrollable-list {
+    position: absolute;
+    margin-left: 20%;
+    width: 410px;
+    height: 100px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.scrollable-list ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.scrollable-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#grupa {
+    top:125px;
+    margin-left:20%;
+    position: relative;
+    width: 410px;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
 }
