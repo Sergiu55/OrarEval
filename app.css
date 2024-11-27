@@ -120,9 +120,7 @@ input:checked + .button::before{
     transform: translateX(20px);
 }
 
-input {
-    display: none;
-}
+
 
 input[type="checkbox" i] {
     background-color: initial;
@@ -132,9 +130,41 @@ input[type="checkbox" i] {
     margin: 3px 3px 3px 4px;
     padding: initial;
     border: initial;
+    display: none;
 }
 
 .Regim {
     color: white;
     margin-top: 5%;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+  
+.main {
+    position: relative;
+    top: 50px;
+    margin-left: 20%;
+}
+
+input {
+    height: 50px;
+    width: 370px;
+    padding-left: 40px;
+}
+
+.btn {
+    bottom:33px;
+    margin-left: 21%;
+    position:relative;
+    width: 10px;
+}
+
+.search-icon {
+    color: rgb(75, 187, 47); 
+    pointer-events: none; 
 }
