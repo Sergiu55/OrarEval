@@ -196,8 +196,17 @@ input {
 }
 
 #grupa {
-    top:125px;
+    top:120px;
     margin-left:20%;
+    position: relative;
+    width: 410px;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+}
+
+#data {
+    top:180px;
+    right:415px;
     position: relative;
     width: 410px;
     padding: 10px 10px 10px 10px;
