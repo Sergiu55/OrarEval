@@ -135,7 +135,7 @@ input[type="checkbox" i] {
 
 .Regim {
     color: white;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 
@@ -145,20 +145,15 @@ input[type="checkbox" i] {
     font-family: sans-serif;
 }
   
-.main {
-    position: relative;
-    top: 50px;
-    margin-left: 17%;
-}
-
 input {
     height: 50px;
     width: 430px;
     padding-left: 40px;
+    margin-left: 17%;
 }
 
 .btn {
-    bottom:33px;
+    bottom:35px;
     margin-left: 18%;
     position:relative;
     width: 10px;
@@ -267,4 +262,112 @@ input {
 
 .subtext p span {
     margin-right: 20px; 
+}
+
+
+.img-too {
+    position: absolute;
+    bottom: 830px;
+    left: 1200px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.buttons-container {
+    display: flex;
+    position: relative;
+    top: 200px;
+    right: 400px;
+    justify-content: center; 
+    gap: 30px; 
+    margin-top: auto;
+}
+
+.button11{
+    background-color: #4CAF50; 
+    color: white;
+    height: 30px;
+    width: 120px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button12{
+    background-color: #da1515;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button13{
+    background-color: #7e037e; 
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.serviuciul {
+    padding: 15px 15px 15px 15px;   
+    background-color: white;
+    font-size: 15px;
+    margin-top:11%;
+    width: 445px;
+    margin-left: 16.8%;
+    color: green;
+}
+
+.orar-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    left: 500px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    padding-top: 20px; 
+}
+
+.header-text {
+    position: absolute;
+    bottom: 800px;
+    left: 1010px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.orar-body {
+    display: grid;
+    position: absolute;
+    bottom: 350px;
+    left: 900px;
+    grid-template-columns: 1fr repeat(5, 1fr);
+    gap: 1px;
+    background-color: #ddd;
+    width: 700px;
+    max-height: 80%;
+    overflow: hidden;
+}
+
+.orar-body div {
+    border-right: color black;
+    padding: 15px;
+    text-align: center;
+}
+
+.orar-body .hour {
+    background-color: #155800;
+    font-weight: bold;
 }
